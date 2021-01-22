@@ -75,3 +75,5 @@ INNER JOIN categories ON items.category_id = categories.id;
 UPDATE items
 SET price = 2500000
 WHERE name LIKE '%sumsang%';
+
+SELECT * FROM items;
